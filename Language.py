@@ -1,6 +1,6 @@
 import pandas as pd
 
-filename = 'C:/Users/user/Desktop/Kaggle/en_train.csv'
+filename = 'home/user/Text-Noralization/en_train.csv'
 file = pd.read_csv(filename)
 
 words = file['before'].values
